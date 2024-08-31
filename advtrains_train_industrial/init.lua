@@ -142,7 +142,7 @@ minetest.register_craft({
 	output = 'advtrains:wagon_tank',
 	recipe = {
 		{'default:steelblock', 'default:steel_ingot', 'default:steelblock'},
-		{'advtrains:steelblock', '', 'default:steelblock'},
+		{'default:steelblock', '', 'default:steelblock'},
 		{'advtrains:wheel', 'default:steelblock', 'advtrains:wheel'},
 	},
 })
@@ -152,7 +152,7 @@ minetest.register_craft({
 	output = 'advtrains:wagon_wood',
 	recipe = {
 		{'default:steel_ingot', '', 'default:steel_ingot'},
-		{'advtrains:steelblock', 'default:steelblock', 'default:steelblock'},
+		{'default:steelblock', 'default:steelblock', 'default:steelblock'},
 		{'advtrains:wheel', '', 'advtrains:wheel'},
 	},
 })
